@@ -12,7 +12,7 @@ const inter = Inter({
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-neutral-900 to-neutral-950 text-white overflow-x-clip">
+    <div className="min-h-screen bg-gradient-to-b from-neutral-900 to-black text-white overflow-x-clip">
       <header>
         <Navbar />
       </header>

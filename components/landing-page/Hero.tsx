@@ -37,10 +37,8 @@ const Hero = () => {
           >
             {" "}
             <span className="font-medium">
-              Become a supporter, get discounted early access
-            </span>{" "}
-            + a private Slack where I share the designs, code and development
-            process.
+            Your data is completely safe with us — protected by blockchain, making it tamper-proof and verifiable. With end-to-end encryption and immutable records, your information remains private, secure, and trusted.
+            </span>
           </p>
           <div className="flex gap-4 pointer-events-auto">
             <Link
