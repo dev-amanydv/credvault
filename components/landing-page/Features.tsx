@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Features = () => {
@@ -10,7 +11,7 @@ const Features = () => {
               Features That Build Trust.
             </div>
           </div>
-          <hr className="w-full border-0 h-[1px] bg-gradient-to-r from-white/0 via-white/10 to-white/0 mb-2" />
+          <hr className="w-full border-0 h-[1px] bg-gradient-to-r from-white/0 via-white/40 to-white/0 mb-2" />
           <div className="grid grid-cols-1 flex-grow grid-flow-dense md:grid-cols-2 lg:grid-cols-3 gap-3 w-full">
             <div className="col-span-1 rounded-3xl relative row-span-2 p-2 text-neutral-300 bg-neutral-600/10 overflow-hidden hover:brightness-125 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer group">
               <div className="absolute inset-0 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -25,8 +26,8 @@ const Features = () => {
                   Upload scanned or digital certificates and get trusted verification results within seconds.
                   </p>
                 </div>
-                <div className="border-[1px]  border-neutral-500/10 group-hover:bg-neutral-600/30 transition-all duration-600 ease-in-out bg-neutral-600/10 rounded-3xl w-full h-80">
-
+                <div className="border-[1px] overflow-hidden border-neutral-500/10 transition-all duration-600 ease-in-out bg-[#19191B] rounded-3xl w-full h-80">
+                  <Image className="object-" src={'/feat1.png'} width={1200} height={1200} alt="A dark, minimalistic, and modern digital concept illustration showing instant upload and verification of certificates. A sleek glowing upload icon (upward arrow inside a folder or cloud) seamlessly connected to a futuristic verification checkmark (✔) within seconds. The design should feel trustworthy, secure, and tech-driven, with neon accents (blue or green) on a dark background. Use minimal clutter, clean lines, subtle gradients, and soft futuristic glows to highlight speed and reliability. Perfect for a modern UI bento card." />
                 </div>
               </div>
             </div>
@@ -43,8 +44,8 @@ const Features = () => {
                   New certificates are secured with blockchain hashes and digital watermarks for tamper-proof authenticity.
                   </p>
                 </div>
-                <div className="border-[1px]  border-neutral-500/10 group-hover:bg-neutral-600/30 transition-all duration-600 ease-in-out bg-neutral-600/10 rounded-3xl w-full h-40">
-
+                <div className="border-[1px] relative overflow-hidden  border-neutral-500/10 group-hover:bg-neutral-600/30 transition-all duration-600 ease-in-out bg-neutral-600/10 rounded-3xl w-full h-40">
+                <Image className="object-center absolute -top-10 left-0" src={'/feat2.png'} width={350} height={350} alt="A dark, minimalistic, and modern digital concept illustration showing instant upload and verification of certificates. A sleek glowing upload icon (upward arrow inside a folder or cloud) seamlessly connected to a futuristic verification checkmark (✔) within seconds. The design should feel trustworthy, secure, and tech-driven, with neon accents (blue or green) on a dark background. Use minimal clutter, clean lines, subtle gradients, and soft futuristic glows to highlight speed and reliability. Perfect for a modern UI bento card." />
                 </div>
               </div>
             </div>
@@ -53,8 +54,8 @@ const Features = () => {
               <div className="absolute inset-0 bg-neutral-500/10 group-hover:bg-neutral-900/30 transition-all duration-500 ease-in-out"></div>
               <div className="relative z-10 gap-5 h-full border-[1px] border-neutral-400/10 rounded-3xl p-4 flex flex-col justify-between">
                 <div className="absolute inset-0 bg-neutral-950/70 -z-10  0 rounded-3xl group-hover:bg-black transition-all duration-500 ease-in-out"></div>
-                <div className="border-[1px]  border-neutral-500/10 group-hover:bg-neutral-600/30 transition-all duration-600 ease-in-out bg-neutral-600/10 rounded-3xl w-full h-40">
-
+                <div className="border-[1px] relative overflow-hidden  border-neutral-500/10 group-hover:bg-neutral-600/30 transition-all duration-600 ease-in-out bg-neutral-600/10 rounded-3xl w-full h-40">
+                <Image className="object-center absolute -top-10 left-0" src={'/feat3.png'} width={350} height={350} alt="A dark, minimalistic, and modern digital concept illustration showing instant upload and verification of certificates. A sleek glowing upload icon (upward arrow inside a folder or cloud) seamlessly connected to a futuristic verification checkmark (✔) within seconds. The design should feel trustworthy, secure, and tech-driven, with neon accents (blue or green) on a dark background. Use minimal clutter, clean lines, subtle gradients, and soft futuristic glows to highlight speed and reliability. Perfect for a modern UI bento card." />
                 </div>
                 <div className="space-y-2 z-20">
                   <p className="flex flex-row items-start gap-2 text-lg font-medium">
@@ -80,8 +81,8 @@ const Features = () => {
                   Colleges and universities can bulk-upload or sync records in real-time for seamless verification.
                   </p>
                 </div>
-                <div className="border-[1px]  border-neutral-500/10 group-hover:bg-neutral-600/30 transition-all duration-600 ease-in-out bg-neutral-600/10 rounded-3xl w-full h-40">
-
+                <div className="border-[1px] relative overflow-hidden  border-neutral-500/10 group-hover:bg-neutral-600/30 transition-all duration-600 ease-in-out bg-neutral-600/10 rounded-3xl w-full h-40">
+                <Image className="object-center absolute -top-18 left-0" src={'/feat4.png'} width={350} height={350} alt="A dark, minimalistic, and modern digital concept illustration showing instant upload and verification of certificates. A sleek glowing upload icon (upward arrow inside a folder or cloud) seamlessly connected to a futuristic verification checkmark (✔) within seconds. The design should feel trustworthy, secure, and tech-driven, with neon accents (blue or green) on a dark background. Use minimal clutter, clean lines, subtle gradients, and soft futuristic glows to highlight speed and reliability. Perfect for a modern UI bento card." />
                 </div>
               </div>
             </div>
