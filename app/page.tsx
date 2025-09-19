@@ -1,4 +1,5 @@
 import Background from "@/components/landing-page/Background";
+import Development from "@/components/landing-page/Development";
 import Features from "@/components/landing-page/Features";
 import Hero from "@/components/landing-page/Hero";
 import Navbar from "@/components/landing-page/Navbar";
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero />
         <NeedOfCredVault />
         <Features />
+        <Development />
       </main>
     </div>
   );
