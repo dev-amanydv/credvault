@@ -3,14 +3,14 @@ import React from "react";
 const NeedOfCredVault = () => {
   return (
     <section className="py-1 sm:py-5 md:py-10 lg:py-20 bg-gradient-to-b from-neutral-950 to-neutral-900">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mt-20 flex flex-col justify-center items-center gap-8 fade-in animation-delay-200">
           <div className="grid grid-cols-1 sm:grid-cols-2 justify-between items-center">
-            <div className="text-white text-3xl sm:text-4xl lg:text-5xl font-medium">
+            <div className="text-neutral-300/70 text-left text-3xl sm:text-4xl lg:text-5xl font-semibold">
               Why CredVault is needed?
             </div>
           </div>
-          <hr className="w-full border-0 h-[1px] bg-gradient-to-r from-white/0 via-white/10 to-white/0 mb-2" />
+          <hr className="w-full border-0 h-[1px] bg-gradient-to-r from-white/30 via-white/10 to-white/0 mb-2" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-full">
             <div
               className="p-6 bg-neutral-800/40 rounded-[20px] flex flex-col justify-between fade-in hover:brightness-110 overflow-hidden"
