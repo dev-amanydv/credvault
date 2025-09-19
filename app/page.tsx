@@ -1,6 +1,5 @@
 import Background from "@/components/landing-page/Background";
 import CTA from "@/components/landing-page/CTA";
-import Development from "@/components/landing-page/Development";
 import Features from "@/components/landing-page/Features";
 import Footer from "@/components/landing-page/Footer";
 import Hero from "@/components/landing-page/Hero";
