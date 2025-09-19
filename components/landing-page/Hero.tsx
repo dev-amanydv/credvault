@@ -4,17 +4,20 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="pt-28 flex justify-center md:pt-40 bg-gradient-to-b from-black/0 to-neutral-950 relative overflow-hidden     border-b border-neutral-900 md:border-b-0">
+      <div className="absolute inset-0 w-full h-full 
+  bg-[radial-gradient(ellipse_at_30%_10%,theme(colors.neutral.800),theme(colors.neutral.950),transparent)]">
+</div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pointer-events-none">
         <div className="max-w-4xl flex flex-col items-center text-center  space-y-6">
           <h1
-            className="text-2xl text-center sm:text-4xl lg:text-6xl leading-tight tracking-tight font-medium sm:font-regular"
+            className="text-2xl mt-10 text-center sm:text-4xl lg:text-6xl leading-tight tracking-tight font-medium sm:font-regular"
             style={{
               opacity: 1,
               animation: "1s ease 0s 1 normal forwards running blurDown",
             }}
           >
             Verify Academic Credentials Instantly.
-            <br /> Trust Every Certificate.
+            <br /> No More Fake Degrees
           </h1>
           <p
             className="text-base text-center font-light sm:text-lg text-neutral-300 animate-fade-in-down animation-delay-200"
@@ -28,18 +31,7 @@ const Hero = () => {
             protect student achievements, and uphold institutional integrity
             across Jharkhand.
           </p>
-          <p
-            className="text-neutral-500 w-full text-center font-light max-w-xl text-sm"
-            style={{
-              opacity: 1,
-              animation: "1s ease 0.2s 1 normal forwards running blurDown",
-            }}
-          >
-            {" "}
-            <span className="font-medium w-full">
-            Your data is completely safe with us — protected by blockchain, making it tamper-proof and verifiable. With end-to-end encryption and immutable records, your information remains private, secure, and trusted.
-            </span>
-          </p>
+          
           <div className="flex gap-4 pointer-events-auto">
             <Link
               href="/verify"

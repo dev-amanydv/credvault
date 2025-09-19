@@ -1,6 +1,8 @@
 import Background from "@/components/landing-page/Background";
+import CTA from "@/components/landing-page/CTA";
 import Development from "@/components/landing-page/Development";
 import Features from "@/components/landing-page/Features";
+import Footer from "@/components/landing-page/Footer";
 import Hero from "@/components/landing-page/Hero";
 import Navbar from "@/components/landing-page/Navbar";
 import NeedOfCredVault from "@/components/landing-page/NeedOfCredVault";
@@ -22,7 +24,8 @@ export default function Home() {
         <Hero />
         <NeedOfCredVault />
         <Features />
-        <Development />
+        <CTA/>
+        <Footer />
       </main>
     </div>
   );
