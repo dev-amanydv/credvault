@@ -1,4 +1,5 @@
 import Background from "@/components/landing-page/Background";
+import Development from "@/components/landing-page/Development";
 import Features from "@/components/landing-page/Features";
 import Hero from "@/components/landing-page/Hero";
 import Navbar from "@/components/landing-page/Navbar";
@@ -19,8 +20,9 @@ export default function Home() {
       <main className={`${inter.className}`}>
         <Background />
         <Hero />
-        <NeedOfCredVault />
-        <Features />
+        <Development />
+        {/* <NeedOfCredVault />
+        <Features /> */}
       </main>
     </div>
   );
