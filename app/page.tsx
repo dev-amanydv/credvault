@@ -21,7 +21,7 @@ export default function Home() {
         <Background />
         <Hero />
         <NeedOfCredVault />
-        {/* <Features /> */}
+        <Features />
         <Development />
       </main>
     </div>
