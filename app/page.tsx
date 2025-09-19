@@ -20,9 +20,9 @@ export default function Home() {
       <main className={`${inter.className}`}>
         <Background />
         <Hero />
+        <NeedOfCredVault />
+        {/* <Features /> */}
         <Development />
-        {/* <NeedOfCredVault />
-        <Features /> */}
       </main>
     </div>
   );
