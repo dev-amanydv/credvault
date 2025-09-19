@@ -20,7 +20,7 @@ export default function Home() {
         <Background />
         <Hero />
         <NeedOfCredVault />
-        <Features />
+        {/* <Features /> */}
       </main>
     </div>
   );
